@@ -3,4 +3,4 @@
 
 select *
 from {{ ref('my_first_dbt_model') }}
-where id in (1,2)
+where id 1
